@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.0.0',
-        'version' => '8.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '637d0d36f05534888863b20360aed8811144e26c',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -34,6 +34,15 @@
                 0 => '*',
             ),
         ),
+        'crocodic/laravel-model' => array(
+            'pretty_version' => 'v4.1.3',
+            'version' => '4.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../crocodic/laravel-model',
+            'aliases' => array(),
+            'reference' => '351322842f924228848d5ede101b5494791836d6',
+            'dev_requirement' => false,
+        ),
         'davedevelopment/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -47,6 +56,42 @@
             'install_path' => __DIR__ . '/../dflydev/dot-access-data',
             'aliases' => array(),
             'reference' => '0992cc19268b259a39e86f296da5f0677841f42c',
+            'dev_requirement' => false,
+        ),
+        'doctrine/cache' => array(
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/cache',
+            'aliases' => array(),
+            'reference' => '1ca8f21980e770095a31456042471a57bc4c68fb',
+            'dev_requirement' => false,
+        ),
+        'doctrine/dbal' => array(
+            'pretty_version' => '2.13.9',
+            'version' => '2.13.9.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/dbal',
+            'aliases' => array(),
+            'reference' => 'c480849ca3ad6706a39c970cdfe6888fa8a058b8',
+            'dev_requirement' => false,
+        ),
+        'doctrine/deprecations' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/deprecations',
+            'aliases' => array(),
+            'reference' => '0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de',
+            'dev_requirement' => false,
+        ),
+        'doctrine/event-manager' => array(
+            'pretty_version' => '1.1.1',
+            'version' => '1.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/event-manager',
+            'aliases' => array(),
+            'reference' => '41370af6a30faa9dc0368c4a6814d596e81aba7f',
             'dev_requirement' => false,
         ),
         'doctrine/inflector' => array(
@@ -404,12 +449,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.0.0',
-            'version' => '8.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '637d0d36f05534888863b20360aed8811144e26c',
             'dev_requirement' => false,
         ),
         'laravel/serializable-closure' => array(
@@ -757,8 +802,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(

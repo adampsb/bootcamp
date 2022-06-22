@@ -13,6 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // User::factory(10)->create();
+        \DB::table('admins')->insert([
+            'name' => "Admin",
+            'email' => 'admin@gmail.com',
+            'password' => \Hash::make(123456),
+            'created_at' => date('Y-m-d H:i:s'),
+        ]);
     }
 }
